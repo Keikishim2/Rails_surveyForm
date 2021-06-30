@@ -1,0 +1,27 @@
+// Place all the styles related to the Surveys controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+body{
+    background: url('https://www.videogameschronicle.com/files/2020/02/1_1screenshot15.png');
+    background-size: cover;
+    font-family: 'Akaya Kanadaka', cursive;
+    text-transform: uppercase;
+}
+.output{
+    border: 2px solid black;
+    margin: 0 auto;
+    height: 400px;
+    width: 700px;
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    background: url('https://c4.wallpaperflare.com/wallpaper/425/862/503/stardew-valley-farm-stars-pixel-art-hd-wallpaper-preview.jpg');
+    background-size: cover;
+    padding-top: 90px;
+    box-shadow: 5px 5px black;
+    border-radius: 10px;
+}
+#com{
+    color: yellow;
+}

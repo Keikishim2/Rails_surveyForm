@@ -1,0 +1,45 @@
+// Place all the styles related to the index controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+body{
+    background: url('https://www.videogameschronicle.com/files/2020/02/1_1screenshot15.png');
+    background-size: cover;
+    font-family: 'Akaya Kanadaka', cursive;
+    text-transform: uppercase;
+}
+form{
+    border: 2px solid black;
+    margin: 0 auto;
+    margin-top: 100px;
+    height: 400px;
+    width: 700px;
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    background: url('https://c4.wallpaperflare.com/wallpaper/425/862/503/stardew-valley-farm-stars-pixel-art-hd-wallpaper-preview.jpg');
+    background-size: cover;
+    padding-top: 90px;
+    box-shadow: 5px 5px black;
+    border-radius: 10px;
+}
+input, select, textarea{
+    display: block;
+    margin: 0 auto;
+    border-radius: 40px;
+    background: url('http://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/becdd8955dc57eb.png');
+    background-size: contain;
+    font-weight: bolder;
+    padding: 2px;
+}
+#submit{
+    margin-top: 40px;
+    padding: 10px;
+    width: 100px;
+    background: url('https://i.imgur.com/GTnMVrS.png');
+    background-size: contain;
+    color: black;
+    font-weight: 800;
+    box-shadow: 2px 2px black;
+    text-transform: uppercase;
+}

@@ -1,0 +1,8 @@
+<div class="output">
+    <%= flash["success"] %>
+    <h2>Submitted Information</h2>
+    <p>Name: <%= session["results"]["name"] %></p>
+    <p>Dojo Location: <%= session["results"]["location"] %></p>
+    <p>Favorite Language: <%= session["results"]["fave"] %></p>
+    <p id="com">Comment (optional): <%= session["results"]["comment"] %></p>
+</div>
