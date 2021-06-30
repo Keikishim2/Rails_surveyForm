@@ -1,17 +1,17 @@
 // Place all the styles related to the index controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+@import url('http://fonts.cdnfonts.com/css/sf-pixelate');
 body{
     background: url('https://www.videogameschronicle.com/files/2020/02/1_1screenshot15.png');
     background-size: cover;
-    font-family: 'Akaya Kanadaka', cursive;
+    font-family: 'SF Pixelate', sans-serif;
     text-transform: uppercase;
 }
 form{
     border: 2px solid black;
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 90px;
     height: 400px;
     width: 700px;
     text-align: center;
@@ -19,7 +19,7 @@ form{
     color: black;
     background: url('https://c4.wallpaperflare.com/wallpaper/425/862/503/stardew-valley-farm-stars-pixel-art-hd-wallpaper-preview.jpg');
     background-size: cover;
-    padding-top: 90px;
+    padding-top: 70px;
     box-shadow: 5px 5px black;
     border-radius: 10px;
 }
@@ -30,10 +30,11 @@ input, select, textarea{
     background: url('http://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/becdd8955dc57eb.png');
     background-size: contain;
     font-weight: bolder;
+    font-family: 'SF Pixelate', sans-serif;
     padding: 2px;
 }
 #submit{
-    margin-top: 40px;
+    margin-top: 20px;
     padding: 10px;
     width: 100px;
     background: url('https://i.imgur.com/GTnMVrS.png');
